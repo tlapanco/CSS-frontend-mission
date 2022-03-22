@@ -1,0 +1,32 @@
+nav {
+	background-image: linear-gradient(to right, rgb(255, 255, 255) 49%, #e3f2fd 50%);
+}
+
+footer {
+	background-color: rgb(238, 243, 255);
+}
+
+.hero__icons i {
+	background-color: rgb(255, 250, 233);
+	padding: 5px;
+}
+
+.schedule i,
+.schedule-input i,
+.accordion-button i,
+.contact i
+{
+	background-color: rgb(237, 244, 253);
+	padding: 5px;
+}
+
+.schedule-form {
+	width: 70% !important;
+	height: 10%;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.benefits i {
+	background-color: rgb(237, 244, 253);
+	padding: 0 8px;
+}

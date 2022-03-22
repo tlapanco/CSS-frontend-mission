@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">  
+    <link rel="stylesheet" href="css/main.css">
+    <title>Vaccination</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
+      <div class="container ps-1 pe-1 ps-md-5 pe-md-5">
+        <a class="navbar-brand text-primary fs-3 fw-bold" href="#">Vaccination</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-5">
+              <a class="nav-link fw-bold" aria-current="page" href="#">Database</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link fw-bold" href="#">Education</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link fw-bold" href="#">News</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link fw-bold" href="#">Regulation</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link btn btn-primary text-white fw-bold" href="#">Hoax Buster</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid position-relative">
+      <div class="row align-items-md-center">
+        <div class="col-md-6 bg-white p-0">
+          <div class="p-4 p-md-5 text-black">
+            <h1 class="display-4 fw-bold p-0 p-md-4">Fight Virus With Vaccines</h1>
+            <p class="col-md-10 fs-4 p-0 p-md-4">
+              Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected.
+            </p>
+          </div>
+          <div class="p-2 p-md-5 hero__icons">
+            <i class="bi bi-shield-fill-check text-warning ms-0 ms-md-4"></i>
+            <span class="p-0 p-md-2 fw-bold">Best protection</span>
+            <i class="bi bi-star-fill text-warning"></i>
+            <span class="p-0 p-md-2 fw-bold">Selected vaccines</span>
+          </div>
+          <!-- Schedule -->
+          <div class="p-2 p-md-5 schedule">
+            <i class="bi bi-clock-fill text-primary ms-0 ms-md-4 rounded"></i>
+            <span class="p-0 p-md-2 fw-bold fs-5">Schedule your vaccinations</span>
+            <div class="schedule-form d-none d-md-flex position-absolute align-items-center  justify-content-between px-5 flex-column flex-md-row mt-5 ms-4 py-3 rounded shadow-lg">
+              <div class="schedule-input">
+                <i class="bi bi-geo-alt-fill text-primary rounded"></i>
+                <span class="">Location</span>
+                <p class="fw-bold m-0">Jakarta Utara</p>
+              </div>
+              <div class="schedule-input">
+                <i class="bi bi-calendar-fill text-primary rounded"></i>
+                <span class="">Date</span>
+                <p class="fw-bold m-0">08 July 2021</p>
+              </div>
+              <div class="schedule-input">
+                <i class="bi bi-pencil-fill text-primary rounded"></i>
+                <span class="">Vaccine type</span>
+                <p class="fw-bold m-0">Moderna</p>
+              </div>
+              <div class="schedule-button">
+                <button class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-0">
+          <div class="bg-success">
+            <img src="assets/images/enfermera1.png" alt="Nurse 1" class="bg-primary w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vaccine types -->
+    <div class="container d-flex p-2 p-md-4">
+      <div class="col-3">
+        <img src="assets/images/aztrazeneca.png" alt="Aztrazeneca logo" class="img-fluid">
+      </div>
+      <div class="col-3">
+        <img src="assets/images/sinovac.png" alt="Sinovac logo" class="img-fluid">
+      </div>
+      <div class="col-3">
+        <img src="assets/images/phizer.png" alt="Phizer logo" class="img-fluid">
+      </div>
+      <div class="col-3">
+        <img src="assets/images/moderna.png" alt="Moderna logo" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Benefits -->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="display-6 p-1 p-md-3 fw-bold">What should I vaccine?</h2>
+          <p class="p-0 p-md-2">In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 col-md-3 p-0 p-md-3 mx-auto my-3">
+          <div class="card benefits justify-content-start border p-3">
+            <i class="bi bi-list-task text-primary col-2 col-md-3 rounded fs-1"></i>
+            <div class="card-body px-0 pt-4">
+              <h5 class="card-title fw-bold">Minimize the spread of viruses</h5>
+              <p class="card-text">Vaccine hs been proven effective to prevent someone from getting infected with Coronavirus</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-md-3 p-0 p-md-3 mx-auto my-3">
+          <div class="card benefits justify-content-start border p-3">
+            <i class="bi bi-shield-fill-check text-primary col-2 col-md-3 rounded fs-1"></i>
+            <div class="card-body px-0 pt-4">
+              <h5 class="card-title fw-bold">Forming antobodies</h5>
+              <p class="card-text">COVID-19 vaccine proven to help shape antibody response for immune system</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-md-3 p-0 p-md-3 mx-auto my-3">
+          <div class="card benefits justify-content-start border p-3">
+            <i class="bi bi-people-fill text-primary col-2 col-md-3 rounded fs-1"></i>
+            <div class="card-body px-0 pt-4">
+              <h5 class="card-title fw-bold">Protecting people nearby</h5>
+              <p class="card-text">The benefits of COVID-19 vaccination are the vaccine that we get can also help protected people around us</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-md-3 p-0 p-md-3 mx-auto my-3">
+          <div class="card benefits justify-content-start border p-3">
+            <i class="bi bi-graph-up-arrow text-primary col-2 col-md-3 rounded fs-1"></i>
+            <div class="card-body px-0 pt-4">
+              <h5 class="card-title fw-bold">Creating group immunity</h5>
+              <p class="card-text">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preparations -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 p-0">
+          <img src="assets/images/nurse-2.png" alt="Nurse-2" class="w-100">
+        </div>
+        <div class="col-12 col-md-6 p-3 p-md-5">
+          <div class="row">
+            <h2 class="display-6 p-2 p-md-3 fw-bold">Preparations Before Vaccine</h2>
+            <p>the success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work :</p>
+          </div>
+          <div class="row">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <i class="bi bi-shield-fill-x me-3 text-primary"></i>
+                   Avoid alcoholic beverages
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                  </div>
+                </div>
+              </div><!-- accordion-item -->
+
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                   <i class="bi bi-x-square-fill me-3 text-primary"></i>
+                   Avoid stress
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                  </div>
+                </div>
+              </div><!-- accordion-item -->
+
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                   <i class="bi bi-file-bar-graph-fill me-3 text-primary"></i>
+                   Eat healthy food
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                  </div>
+                </div>
+              </div><!-- accordion-item -->
+
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                   <i class="bi-check-square-fill me-3 text-primary"></i>
+                   Get enough sleep
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                  </div>
+                </div>
+              </div><!-- accordion-item -->
+
+               <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                   <i class="bi bi-heart-fill me-3 text-primary"></i>
+                    Exercise or physical activity
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.
+                  </div>
+                </div>
+              </div><!-- accordion-item -->
+            </div><!-- accordion -->
+          </div><!-- row-accordion -->
+        </div>
+      </div>
+    </div><!-- container-fluid -->
+
+
+    <!-- Emergency -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 p-3 p-md-5">
+          <div class="row mb-5">
+            <h2 class="display-6 p-2 p-md-3 fw-bold">Emergency contact</h2>
+            <p>Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as Covid-19, make sure you also take care of yourself before reporting to us :</p>
+          </div>
+          <div class="row gap-4 ps-2">
+            <div class="col-11 col-md-5 px-4 py-3 border rounded contact">
+              <i class="bi bi-telephone-fill text-primary"></i>
+              <span class="fw-bold fs-4 ps-2">Call</span>
+              <p class="ps-5">021.123.145.14</p>
+              <button class="btn btn-light text-primary fw-bold btn-lg col-12">Call now</button>
+            </div>
+            <div class="col-11 col-md-5 px-4 py-3 border rounded contact">
+              <i class="bi bi-chat-dots-fill text-primary"></i>
+              <span class="fw-bold fs-4 ps-2">Chat</span>
+              <p class="ps-5">021.123.145.14</p>
+              <button class="btn btn-primary fw-bold btn-lg col-12">Chat now</button>
+            </div>
+            <div class="col-11 col-md-5 px-4 py-3 border rounded contact">
+              <i class="bi bi-camera-video-fill text-primary"></i>
+              <span class="fw-bold fs-4 ps-2">Video call</span>
+              <p class="ps-5">021.123.145.14</p>
+              <button class="btn btn-light text-primary fw-bold btn-lg col-12">Video call now</button>
+            </div>
+            <div class="col-11 col-md-5 px-4 py-3 border rounded contact">
+              <i class="bi bi-envelope-fill text-primary"></i>
+              <span class="fw-bold fs-4 ps-2">Message</span>
+              <p class="ps-5">021.123.145.14</p>
+              <button class="btn btn-light text-primary fw-bold btn-lg col-12">Message now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-0">
+          <img src="assets/images/nurse-3.png" alt="Nurse-3" class="w-100">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="border-top p-2 p-md-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h4 class="mb-3 text-primary fw-bold">Vaccinate</h4>
+            <p>Our goal is to help the world free from the ongoing pandemic</p>
+          </div>
+          <div class="col-6 col-md-2">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">About us</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Features</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">News & Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2">
+            <h5>Company</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">How We Work?</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Capital</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Security</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 pe-0">
+            <h5>Support</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">FAQs</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Support Center</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div><!-- row -->
+
+        <div class="row">
+          <p class="me-auto">@2021 Vaccination. All rights reserved</p>
+          <ul class="list-unstyled text-small m-0">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms & Agreements</a></li>
+            <li class="mb-0"><a class="link-secondary text-decoration-none" href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+      </div><!--container fluid-->
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
